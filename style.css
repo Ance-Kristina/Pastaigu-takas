@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.HEX {
+    color: #9cb508;
+    color: #e4b4a4;
+    color: #84743c;
+    color: #948c54;
+    color: #d6c6aa;
+    color: #412a35;
+    color: white;  
+}
+/*  ------------------------- GALVENE ------------------------ */
+.galvene {
+    background-color: #9cb508;
+    width: 100%;
+    display: flex;
+}
+.logo_div{
+    width: 250px;
+}
+#logo {
+    margin: 20px 0px 0px 20px;
+    width: 190px;
+}
+.navigacija_div {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navigacija_div > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 750px) {
+    .navigacija_div > ul {
+        flex-direction: column;
+    }
+} 
+
+.navigacija_div > ul > li {
+    padding: 5px 30px 5px 30px;
+    margin: 0px 0px 0px 30px;
+}
+.navigacija_div > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.fona_attela_div {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+#fona_attels_id {
+    width: 100%;
+    display: flex;
+
+}
+ 
+/* --------------------------- SATURS ------------------------------- */
+.saturs {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 600px){
+    .saturs {
+        flex-direction: column;
+    }
+} 
+.taku_konteiners {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.taku_logo_box {
+    width: 220px;
+    height: 300px;
+    box-shadow: 1px 1px 10px #d6c6aa;
+    margin: 40px 40px 20px 40px;
+}
+.pilsetu_konteiners {
+    margin: auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pilsetu_saraksts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.pilsetu_saraksts > ul {
+    list-style-type: none;
+}
+.pilseta > a {
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #948c54;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.pilseta > a:hover {
+    color: #412a35;
+}
+
+.kajene {
+    background-color: #d6c6aa;
+}
+
+
+
+
+/* -------------------- TAKAS ----------------------- */
+.skapis {
+    background-color: #9cb508;
+    border: solid 2px black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.plaukts1 {
+    border: solid 2px red;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.plaukts2 {
+    border: solid 2px red;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gramata1 {
+    background-color: salmon;
+    margin: 10px 0px 10px 20px;
+    border-radius: 10px;
+    height: 50px;
+    width: 280px;
+}
+.gramata2 {
+    background-color: salmon;
+    margin: 10px 20px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+#fona_attels_id2 {
+    width: 100%;
+}
+.pixel {
+    height: 100px;
+    width: 750px;
+    background-color: silver;
+}
+
+/* --------------------- KONTAKTI ---------------------- */
+
+.kontaktu_forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#epasta_lauks {
+    margin-top: 30px;
+    height: 40px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#varda_lauks {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#zinas_lauks {
+    margin-top: 10px;
+    height: 150px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#poga_kontaktu_formai {
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border: solid 1px #948c54;
+    background-color: #d6c6aa;
+    border-radius: 20px;
+    color: #412a35;
+}
+#poga_kontaktu_formai:hover {
+    background-color: white;
+}
+#poga_kontaktu_formai:active {
+    background-color: #d6c6aa;
+}
+
+#obligatie_laukumi {
+    align-items: center;
+    color: #84743c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* --------------------- PALDIES PAR ZIŅU ------------------- */
+
+#paldies_teksts {
+    text-align: center;
+    margin-top: 40px;
+    color: #84743c;
+    font-size: 25px;
+}
+
+#instagram_icon {
+    color: #84743c;
+    height: 300px;
+}
