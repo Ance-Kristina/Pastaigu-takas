@@ -176,3 +176,65 @@ body{
     width: 750px;
     background-color: silver;
 }
+
+/* --------------------- KONTAKTI ---------------------- */
+
+.kontaktu_forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#epasta_lauks {
+    margin-top: 30px;
+    height: 40px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#varda_lauks {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#zinas_lauks {
+    margin-top: 10px;
+    height: 150px;
+    width: 400px;
+    border: solid 1px #948c54;
+}
+#poga_kontaktu_formai {
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border: solid 1px #948c54;
+    background-color: #d6c6aa;
+    border-radius: 20px;
+    color: #412a35;
+}
+#poga_kontaktu_formai:hover {
+    background-color: white;
+}
+#poga_kontaktu_formai:active {
+    background-color: #d6c6aa;
+}
+
+#obligatie_laukumi {
+    align-items: center;
+    color: #84743c;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* --------------------- PALDIES PAR ZIŅU ------------------- */
+
+#paldies_teksts {
+    text-align: center;
+    margin-top: 40px;
+    color: #84743c;
+    font-size: 25px;
+}
+
+#instagram_icon {
+    color: #84743c;
+    height: 300px;
+}
