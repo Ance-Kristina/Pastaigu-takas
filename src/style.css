@@ -1,282 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Open Sans', sans-serif;
-    background-color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+/* --------------------- GLOBAL -------------------------- */
+body {
+    background-color: lightgrey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.HEX {
-    color: #9cb508;
-    color: #e4b4a4;
-    color: #84743c;
-    color: #948c54;
-    color: #d6c6aa;
-    color: #412a35;
-    color: white;  
-}
-/*  ------------------------- GALVENE ------------------------ */
-.galvene {
-    background-color: #9cb508;
-    width: 100%;
+.virsraksts {
+    font-size: 22px;
+    color: rgb(248, 248, 248);
     display: flex;
-}
-.logo_div{
-    width: 250px;
-}
-#logo {
-    margin: 20px 0px 0px 20px;
-    width: 190px;
-}
-.navigacija_div {
-    width: 70%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.navigacija_div > ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-@media only screen and (max-width: 750px) {
-    .navigacija_div > ul {
-        flex-direction: column;
-    }
-} 
+    justify-content: space-around;
 
-.navigacija_div > ul > li {
-    padding: 5px 30px 5px 30px;
-    margin: 0px 0px 0px 30px;
-}
-.navigacija_div > ul > li > a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
 }
 
-.fona_attela_div {
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-}
-#fona_attels_id {
-    width: 100%;
-    display: flex;
-    background-color: #9cb508;
-}
-
-/* ---------------------------- KĀJENE ------------------------------ */
-
-footer {
-    background-color: #d6c6aa;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    margin-top: auto;
-}
-.soc_tikli{
-    margin: 0px 10px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.soc_ikona {
-    height: 40px;
+.poga {
+    width: 300px;
+    font-size: 18px;
+    color: dimgray;
+    padding: 5px 30px;
     margin: 10px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgb(117, 70, 53) 2px 2px 5px 0.1px; 
 }
-.hashtag{
-    color: white;
-    align-items: center;
+/* -------------------- CIK TEV GADI DIENĀS ---------------------- */
+.fons {
+    background-color: coral;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: rgb(104, 104, 104) 2px 2px 5px 0.1px;
 }
- 
-/* --------------------------- SATURS ------------------------------- */
-.saturs {
-    width: 99%;
-    display: flex;
-    flex-direction: row;
-}
-@media only screen and (max-width: 600px){
-    .saturs {
-        flex-direction: column;
-    }
-} 
-.taku_konteiners {
-    margin: auto;
-    width: 75%;
+
+
+.pogu_flex{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.taku_logo_box {
-    width: 220px;
-    height: 300px;
-    box-shadow: 1px 1px 10px #d6c6aa;
-    margin: 40px 40px 20px 40px;
-}
-.pilsetu_konteiners {
-    margin: auto;
-    width: 20%;
+
+
+.input_apreekins {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.pilsetu_saraksts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.pilsetu_saraksts > ul {
-    list-style-type: none;
-}
-.pilseta > a {
-    text-decoration: none;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    color: #948c54;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-.pilseta > a:hover {
-    color: #412a35;
-}
-
-.papildus_info{
-    height: 50px;
-}
-
-
-
-
-
-
-/* -------------------- TAKAS ----------------------- */
-.skapis {
-    background-color: #9cb508;
-    border: solid 2px black;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-.plaukts1 {
-    border: solid 2px red;
-    border-radius: 10px;
-    width: 400px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.plaukts2 {
-    border: solid 2px red;
-    border-radius: 10px;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
-.gramata1 {
-    background-color: salmon;
-    margin: 10px 0px 10px 20px;
-    border-radius: 10px;
-    height: 50px;
-    width: 280px;
-}
-.gramata2 {
-    background-color: salmon;
-    margin: 10px 20px;
-    border-radius: 10px;
-    height: 50px;
-    width: 150px;
-}
-#fona_attels_id2 {
-    width: 100%;
-}
-.pixel {
-    height: 100px;
-    width: 750px;
-    background-color: silver;
+
+#input_collas {
+    
+    background-color: rgb(248, 248, 248);
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: lightgrey;
+    color: dimgray;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-/* --------------------- KONTAKTI ---------------------- */
+/* --------------- Attēlu ģenerātors ------------------- */
 
-.kontaktu_forma {
+.ģeneratora_saakums{
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-#epasta_lauks {
-    margin-top: 30px;
-    height: 40px;
-    width: 400px;
-    border: solid 1px #948c54;
-}
-#varda_lauks {
-    margin-top: 10px;
-    height: 40px;
-    width: 400px;
-    border: solid 1px #948c54;
-}
-#zinas_lauks {
-    margin-top: 10px;
-    height: 150px;
-    width: 400px;
-    border: solid 1px #948c54;
-}
-#poga_kontaktu_formai {
-    margin-top: 10px;
-    height: 40px;
-    width: 200px;
-    border: solid 1px #948c54;
-    background-color: #d6c6aa;
-    border-radius: 20px;
-    color: #412a35;
-}
-#poga_kontaktu_formai:hover {
-    background-color: white;
-}
-#poga_kontaktu_formai:active {
-    background-color: #d6c6aa;
+    justify-content: space-around;
 }
 
-#obligatie_laukumi {
-    align-items: center;
-    color: #84743c;
-    text-align: center;
-    margin: 20px 0px 40px 0px;
+.attelu_ramis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.attelu_ramis img {
+    height: 100px;
+    margin: 5px 10px 20px 10px;
+    border-radius: 10px;
+    border: solid 3px  rgb(104, 104, 104);
 }
 
-/* --------------------- PALDIES PAR ZIŅU ------------------- */
+/* ----------------------- Akmens, šķēres, papīrīts ------------------ */
 
-#paldies_teksts {
-    text-align: center;
-    margin-top: 40px;
-    color: #84743c;
-    font-size: 25px;
+.speles_ramis {
+    display: flex;
+    flex-direction: row;
 }
 
-#instagram_icon {
-    color: #84743c;
-    height: 300px;
+.mana_izvele {
+    margin: 10px;
+    border: solid 3px rgb(248, 248, 248);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.mana_izvele img {
+    height: 200px;
+    margin: 20px;
+    border-radius: 30px;
+}
+.mana_izvele img:hover {
+    box-shadow: rgb(117, 70, 53) 2px 2px 5px 0.1px; 
 }
 
-
-
-/* 
----------------------------------------------------------- */
-#karte {
-    width: 100vw;
+.datora_izvele {
+    margin: 10px;
+    border: solid 3px rgb(248, 248, 248);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
 }
